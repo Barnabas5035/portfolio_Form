@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+}
+form {
+  max-width: 200px;
+  padding: 100px;
+  margin: auto;
+}
+input[type='text'],
+select {
+  display: inline-block;
+  width: 100%;
+  border: solid black;
+  border-width: 1px 1px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 5px;
+}
+input[type='submit'] {
+  width: 100%;
+  padding: 4px 8px;
+  background-color: green;
+  margin: 8px 0px;
+  border: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type='submit']:hover {
+  background-color: rgb(255 0 255);
+}
+textarea {
+  max-width: 200px;
+  margin: 8px 0px;
+  padding-bottom: 25px;
+}
